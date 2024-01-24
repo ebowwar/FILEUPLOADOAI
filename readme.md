@@ -4,8 +4,12 @@ Upload files to OPENAI
 ```
 pip install -r requirements.txt
 ```
+2. set up OpenAI API key
+```
+export OPENAI_API_KEY='api_key'
+```
 
-3. Run
+4. Run
 ```
 python upload_openai.py WRN-Chapter-1.jsonl
 ```
